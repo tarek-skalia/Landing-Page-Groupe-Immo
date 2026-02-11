@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://groupimmo.be/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                dark: '#1a202c', // Dark slate for text
+                primary: '#3965a3', // Group Immo Specific Blue
+                secondary: '#2c4f82', // Slightly darker blue for gradients/hover
+                accent: '#fcdb35', // Group Immo Specific Yellow
+                accentHover: '#e3c32f', // Darker yellow for hover
+                light: '#f0f4f8', // Very light blue-grey background
+              }
+            },
+            fontFamily: {
+              sans: ['"Open Sans"', 'system-ui', 'sans-serif'],
+              heading: ['"Montserrat"', 'sans-serif'],
+            },
+            boxShadow: {
+              'card': '0 4px 20px rgba(57, 101, 163, 0.08)',
+              'card-hover': '0 15px 30px rgba(57, 101, 163, 0.15)',
+              'glow': '0 0 15px rgba(252, 219, 53, 0.5)',
+            }
+          }
+        }
+      }
+    </script>
+    <!-- Dynamic Title for SEO -->
+    <title>Immobilier Herstal | Trouvez votre futur bien avec Group Immo</title>
+    <meta name="description" content="Découvrez les meilleures opportunités immobilières à Herstal avec Group Immo. Biens off-market, estimation gratuite et expertise locale aux portes de Liège.">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
