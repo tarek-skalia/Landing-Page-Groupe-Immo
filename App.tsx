@@ -159,11 +159,11 @@ const App: React.FC = () => {
                 Pourquoi nous choisir ?
               </span>
               <h2 className="font-heading text-3xl md:text-5xl font-extrabold text-brand-dark mb-6">
-                Vendre à {communeData.name} avec Group Immo
+                Expertise locale à <span className="text-brand-primary">{communeData.name}</span>
               </h2>
                <div className="w-20 h-1.5 bg-brand-accent mx-auto mb-8 rounded-full"></div>
               <p className="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
-                Notre expertise locale et notre puissance commerciale sont vos meilleurs atouts pour une transaction réussie.
+                Notre connaissance pointue du marché immobilier de {communeData.name} et notre puissance commerciale sont vos meilleurs atouts.
               </p>
             </div>
             
@@ -181,9 +181,11 @@ const App: React.FC = () => {
           </div>
         </section>
 
-        <PropertyGrid />
+        {/* INJECTED: communeName into PropertyGrid */}
+        <PropertyGrid communeName={communeData.name} />
 
-        <Testimonials />
+        {/* INJECTED: communeName into Testimonials */}
+        <Testimonials communeName={communeData.name} />
 
       </main>
 

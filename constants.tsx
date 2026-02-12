@@ -101,10 +101,10 @@ export const PROPERTIES: Property[] = [
 
 // --- FALLBACK DATA (Used while loading or if Sheet fails) ---
 export const FALLBACK_COMMUNE: CommuneConfig = {
-    name: "HERSTAL",
-    zip: "4040",
+    name: "LIÈGE",
+    zip: "4000",
     heroImage: "https://cdn.prod.website-files.com/68f96b71387d3d720da45ca8/698cae94e1b2a78832009e30_te%CC%81le%CC%81chargement.jpeg",
-    heroTitle: "Vendez votre bien à HERSTAL au meilleur prix",
-    heroSubtitle: "Estimation précise, marketing premium et fichier d'acheteurs qualifiés sur le code postal 4040. Découvrez la valeur de votre bien en 48h.",
-    localVibe: "Le marché immobilier à Herstal est en pleine ébullition. Profitez de la forte demande actuelle pour vendre au meilleur prix.",
+    heroTitle: "Vendez votre bien à LIÈGE au meilleur prix",
+    heroSubtitle: "Estimation précise, marketing premium et fichier d'acheteurs qualifiés sur le code postal 4000. Découvrez la valeur de votre bien en 48h.",
+    localVibe: "Le marché immobilier à Liège est en pleine ébullition. Profitez de la forte demande actuelle pour vendre au meilleur prix.",
 };
