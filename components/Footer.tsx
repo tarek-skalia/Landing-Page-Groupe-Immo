@@ -33,16 +33,13 @@ const Footer: React.FC<FooterProps> = ({ communeName }) => {
       <div className="container mx-auto px-4 pt-16 pb-8 bg-brand-primary">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-1">
-            {/* Logo Footer - Yellow Hexagon + Text */}
-            <div className="flex items-center gap-3 mb-6">
-               <svg width="40" height="40" viewBox="0 0 100 100" className="flex-shrink-0">
-                  <path d="M50 5 L93.3 30 V80 L50 105 L6.7 80 V30 Z" fill="none" stroke="#fcdb35" strokeWidth="5" />
-                  <text x="50" y="65" textAnchor="middle" fill="#fcdb35" fontSize="24" fontFamily="Montserrat" fontWeight="bold">IMMO</text>
-                </svg>
-                <div className="flex flex-col justify-center">
-                    <span className="font-heading font-extrabold text-xl leading-none text-white tracking-tight">GROUP</span>
-                    <span className="font-heading font-bold text-lg leading-none text-brand-accent tracking-wide">IMMO</span>
-                </div>
+            {/* Logo Footer - Image */}
+            <div className="mb-6">
+               <img 
+                 src="https://cdn.prod.website-files.com/68f96b71387d3d720da45ca8/698cae9310045db18a39e07b_Group-Immo_logo_final2021_pour-fond-bleu.169x80.png" 
+                 alt="Group Immo" 
+                 className="h-16 w-auto object-contain"
+               />
             </div>
 
             <p className="text-white/80 text-sm leading-relaxed mb-6">
