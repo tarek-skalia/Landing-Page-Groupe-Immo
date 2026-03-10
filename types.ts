@@ -15,7 +15,7 @@ export interface Property {
 export interface Stat {
   id: number;
   value: string;
-  label: string;
+  label: string | React.ReactNode;
   icon: React.ReactNode;
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, TrendingUp, Users, Target, Award, Clock } from 'lucide-react';
+import { MapPin, TrendingUp, Users, Target, Award, Clock, Gift } from 'lucide-react';
 import { Stat, Property, CommuneConfig, Review } from './types';
 
 export const AGENCY_NAME = "Group Immo";
@@ -42,7 +42,8 @@ export const GLOBAL_REVIEWS: Review[] = [
 export const STATS: Stat[] = [
   { id: 1, value: "4.9/5", label: "Satisfaction Clients", icon: <Award className="w-6 h-6" /> },
   { id: 2, value: "+450", label: "Biens vendus", icon: <Target className="w-6 h-6" /> },
-  { id: 3, value: "15 Ans", label: "D'expertise", icon: <Clock className="w-6 h-6" /> },
+  { id: 3, value: "10 Ans", label: "D'expertise", icon: <Clock className="w-6 h-6" /> },
+  { id: 4, value: "Offerts", label: <>PEB, Élec & Photos Pro<br/>(Mandat Exclusif)</>, icon: <Gift className="w-6 h-6" /> },
 ];
 
 export const FEATURES = [
