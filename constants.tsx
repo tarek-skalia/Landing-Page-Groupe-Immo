@@ -43,7 +43,7 @@ export const STATS: Stat[] = [
   { id: 1, value: "4.9/5", label: "Satisfaction Clients", icon: <Award className="w-6 h-6" /> },
   { id: 2, value: "+450", label: "Biens vendus", icon: <Target className="w-6 h-6" /> },
   { id: 3, value: "10 Ans", label: "D'expertise", icon: <Clock className="w-6 h-6" /> },
-  { id: 4, value: "Offerts", label: <>PEB, Élec & Photos Pro<br/>(Mandat Exclusif)</>, icon: <Gift className="w-6 h-6" /> },
+  { id: 4, value: "Offerts", label: <>PEB, Contrôle Électrique<br/>& Photos Pro<br/><span className="text-xs opacity-90">(Mandat Exclusif)</span></>, icon: <Gift className="w-6 h-6" /> },
 ];
 
 export const FEATURES = [

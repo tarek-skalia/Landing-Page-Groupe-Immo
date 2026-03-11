@@ -14,7 +14,7 @@ const TrustBar: React.FC = () => {
               <span className="font-heading text-4xl font-extrabold text-white block mb-2">
                 {stat.value}
               </span>
-              <span className="text-brand-accent font-bold text-sm uppercase tracking-widest">
+              <span className="text-brand-accent font-bold text-sm uppercase tracking-widest leading-relaxed max-w-[250px] mx-auto">
                 {stat.label}
               </span>
             </div>
