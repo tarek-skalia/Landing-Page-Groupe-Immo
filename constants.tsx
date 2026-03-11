@@ -67,13 +67,13 @@ export const FEATURES = [
 export const PROPERTIES: Property[] = [
   {
     id: 1,
-    title: "Maison Bel-Étage",
+    title: "Belle Maison",
     price: "VENDU",
-    location: "Liège (Rocourt)",
-    beds: 3,
-    baths: 1,
+    location: "Liège",
+    beds: 5,
+    baths: 2,
     area: "145 m²",
-    image: "https://picsum.photos/800/600?random=10",
+    image: "https://cdn.prod.website-files.com/68f96b71387d3d720da45ca8/69b0bce1c0c32a06f0851a97_fb1a9c1e503c568bec647458699b7b48_a7f5c142c9_1600-original.jpg",
     badge: "VENDU en 10 jours"
   },
   {
