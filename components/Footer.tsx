@@ -22,7 +22,7 @@ const Footer: React.FC<FooterProps> = ({ communeName }) => {
                 Nos experts locaux sont prêts à valoriser votre bien. Profitez d'une estimation offerte et sans engagement.
             </p>
             <a 
-                href={MAIN_SITE_URL}
+                href="https://groupimmo.be/estimation/"
                 className="inline-block bg-brand-accent text-brand-primary font-bold text-lg py-4 px-10 rounded-sm hover:bg-white hover:text-brand-primary transition-all duration-300 shadow-xl uppercase tracking-wide transform hover:-translate-y-1"
             >
                 Demander mon estimation gratuite
@@ -46,9 +46,9 @@ const Footer: React.FC<FooterProps> = ({ communeName }) => {
               L'agence de référence pour vos projets immobiliers. Expertise, transparence et innovation au service de votre patrimoine.
             </p>
             <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-accent hover:text-brand-primary transition-colors text-white"><Facebook className="w-5 h-5"/></a>
-                <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-accent hover:text-brand-primary transition-colors text-white"><Instagram className="w-5 h-5"/></a>
-                <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-accent hover:text-brand-primary transition-colors text-white"><Linkedin className="w-5 h-5"/></a>
+                <a href="https://www.facebook.com/GROUPIMMOO" target="_blank" rel="noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-accent hover:text-brand-primary transition-colors text-white"><Facebook className="w-5 h-5"/></a>
+                <a href="https://www.instagram.com/groupimmo_/" target="_blank" rel="noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-accent hover:text-brand-primary transition-colors text-white"><Instagram className="w-5 h-5"/></a>
+                <a href="https://www.linkedin.com/showcase/groupimmooo/" target="_blank" rel="noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-accent hover:text-brand-primary transition-colors text-white"><Linkedin className="w-5 h-5"/></a>
             </div>
           </div>
 
@@ -57,15 +57,11 @@ const Footer: React.FC<FooterProps> = ({ communeName }) => {
             <ul className="space-y-4 text-white/80 text-sm">
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 mr-3 text-brand-accent flex-shrink-0" />
-                <span>Rue de la Réussite 10,<br/>4000 Liège</span>
+                <span>Quai Orban 23,<br/>4020 Liège</span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 mr-3 text-brand-accent flex-shrink-0" />
-                <a href="tel:+32400000000" className="hover:text-white transition-colors">+32 4 000 00 00</a>
-              </li>
-              <li className="flex items-center">
-                <Mail className="w-5 h-5 mr-3 text-brand-accent flex-shrink-0" />
-                <a href="mailto:info@groupimmo.be" className="hover:text-white transition-colors">info@groupimmo.be</a>
+                <a href="tel:+3243400045" className="hover:text-white transition-colors">+32 4 340 00 45</a>
               </li>
             </ul>
           </div>
@@ -73,21 +69,10 @@ const Footer: React.FC<FooterProps> = ({ communeName }) => {
           <div>
             <h4 className="font-heading font-bold text-lg mb-6 text-white border-l-4 border-brand-accent pl-3">Navigation</h4>
             <ul className="space-y-3 text-white/80 text-sm font-medium">
-              <li><a href={MAIN_SITE_URL} className="hover:text-brand-accent transition-colors flex items-center"><span className="w-1.5 h-1.5 bg-brand-accent rounded-full mr-2"></span> Acheter</a></li>
-              <li><a href={MAIN_SITE_URL} className="hover:text-brand-accent transition-colors flex items-center"><span className="w-1.5 h-1.5 bg-brand-accent rounded-full mr-2"></span> Louer</a></li>
-              <li><a href={MAIN_SITE_URL} className="hover:text-brand-accent transition-colors flex items-center"><span className="w-1.5 h-1.5 bg-brand-accent rounded-full mr-2"></span> Vendre</a></li>
-              <li><a href={MAIN_SITE_URL} className="hover:text-brand-accent transition-colors flex items-center"><span className="w-1.5 h-1.5 bg-brand-accent rounded-full mr-2"></span> Estimation</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="font-heading font-bold text-lg mb-6 text-white border-l-4 border-brand-accent pl-3">Secteurs</h4>
-            {/* Dynamic Linking for Multi-Commune System */}
-            <ul className="flex flex-wrap gap-2 text-xs font-medium text-white/70">
-                <li><a href="?commune=liege" className="block bg-white/10 px-2 py-1 rounded hover:bg-brand-accent hover:text-brand-primary transition-colors cursor-pointer border border-white/5">Liège</a></li>
-                <li><a href="?commune=herstal" className="block bg-white/10 px-2 py-1 rounded hover:bg-brand-accent hover:text-brand-primary transition-colors cursor-pointer border border-white/5">Herstal</a></li>
-                <li><a href="?commune=seraing" className="block bg-white/10 px-2 py-1 rounded hover:bg-brand-accent hover:text-brand-primary transition-colors cursor-pointer border border-white/5">Seraing</a></li>
-                <li><a href="?commune=ans" className="block bg-white/10 px-2 py-1 rounded hover:bg-brand-accent hover:text-brand-primary transition-colors cursor-pointer border border-white/5">Ans</a></li>
+              <li><a href="https://groupimmo.be/locations-copy/" className="hover:text-brand-accent transition-colors flex items-center"><span className="w-1.5 h-1.5 bg-brand-accent rounded-full mr-2"></span> Acheter</a></li>
+              <li><a href="https://groupimmo.be/locations/" className="hover:text-brand-accent transition-colors flex items-center"><span className="w-1.5 h-1.5 bg-brand-accent rounded-full mr-2"></span> Louer</a></li>
+              <li><a href="https://groupimmo.be/vente/" className="hover:text-brand-accent transition-colors flex items-center"><span className="w-1.5 h-1.5 bg-brand-accent rounded-full mr-2"></span> Vendre</a></li>
+              <li><a href="https://groupimmo.be/estimation/" className="hover:text-brand-accent transition-colors flex items-center"><span className="w-1.5 h-1.5 bg-brand-accent rounded-full mr-2"></span> Estimation</a></li>
             </ul>
           </div>
         </div>

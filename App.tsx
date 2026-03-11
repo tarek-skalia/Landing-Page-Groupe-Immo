@@ -107,7 +107,7 @@ const App: React.FC = () => {
           
           {/* Desktop CTA */}
           <a 
-            href={MAIN_SITE_URL + "contact"} 
+            href="https://groupimmo.be/estimation/" 
             className="hidden lg:inline-flex items-center px-8 py-3 bg-brand-accent text-brand-primary text-sm font-bold uppercase tracking-wider hover:bg-white hover:text-brand-primary transition-all duration-300 rounded-sm shadow-md"
           >
             Estimation Gratuite
@@ -137,7 +137,7 @@ const App: React.FC = () => {
             <div className="w-16 h-1 bg-brand-accent rounded-full my-4"></div>
             
             <a 
-              href={MAIN_SITE_URL + "contact"} 
+              href="https://groupimmo.be/estimation/" 
               className="px-8 py-4 bg-brand-accent text-brand-primary text-lg font-bold uppercase tracking-wider shadow-xl rounded-sm w-3/4 text-center"
             >
               Estimation Gratuite

@@ -43,7 +43,7 @@ const PropertyGrid: React.FC<PropertyGridProps> = ({ communeName }) => {
             return (
                 <a 
                 key={property.id} 
-                href={MAIN_SITE_URL}
+                href="https://groupimmo.be/vente/"
                 className="group bg-white rounded-lg shadow-card hover:shadow-card-hover transition-all duration-300 flex flex-col border border-gray-100 overflow-hidden relative grayscale-[10%] hover:grayscale-0"
                 >
                 <div className="relative h-72 overflow-hidden">
@@ -99,7 +99,7 @@ const PropertyGrid: React.FC<PropertyGridProps> = ({ communeName }) => {
 
         <div className="text-center mt-16">
           <a 
-            href={MAIN_SITE_URL}
+            href="https://groupimmo.be/estimation/"
             className="inline-flex items-center justify-center px-10 py-4 text-base font-bold text-brand-dark transition-all duration-300 bg-brand-accent hover:bg-white hover:text-brand-primary rounded-sm uppercase tracking-wide shadow-lg border-2 border-brand-accent"
           >
             Estimer mon bien à {communeName}

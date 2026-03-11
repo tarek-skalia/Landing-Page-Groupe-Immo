@@ -68,9 +68,6 @@ const Testimonials: React.FC<TestimonialsProps> = ({ communeName }) => {
         
         {/* Mobile-friendly bottom link */}
         <div className="mt-12 text-center">
-            <a href="https://g.page/groupimmo" target="_blank" rel="noreferrer" className="inline-block border-b border-brand-accent pb-1 text-brand-secondary font-bold hover:text-brand-primary transition-colors text-sm uppercase tracking-wider">
-                Voir tous les avis vérifiés sur Google
-            </a>
         </div>
       </div>
     </section>

@@ -60,7 +60,7 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 md:gap-6 w-full sm:w-auto justify-center mb-16">
           <a 
-            href={MAIN_SITE_URL}
+            href="https://groupimmo.be/estimation/"
             className="group relative inline-flex items-center justify-center px-8 py-4 md:px-10 md:py-5 text-base md:text-lg font-bold text-brand-primary transition-all duration-300 bg-brand-accent hover:bg-white hover:text-brand-primary rounded-sm shadow-[0_10px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_15px_30px_rgba(252,219,53,0.3)] hover:-translate-y-1 uppercase tracking-wide border-2 border-brand-accent w-full sm:w-auto overflow-hidden"
           >
              {/* Button shine effect */}
@@ -70,7 +70,7 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
           </a>
           
           <a 
-            href={MAIN_SITE_URL}
+            href="https://groupimmo.be/contact/"
             className="group inline-flex items-center justify-center px-8 py-4 md:px-10 md:py-5 text-base md:text-lg font-bold text-white transition-all duration-300 bg-transparent border-2 border-white/30 hover:border-white hover:bg-white/10 rounded-sm uppercase tracking-wide w-full sm:w-auto backdrop-blur-sm"
           >
             Prendre Rendez-vous
