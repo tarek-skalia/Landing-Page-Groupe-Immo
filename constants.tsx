@@ -69,7 +69,7 @@ export const PROPERTIES: Property[] = [
     id: 1,
     title: "Belle Maison",
     price: "VENDU",
-    location: "Liège",
+    location: "Liège (Visé)",
     beds: 5,
     baths: 2,
     area: "145 m²",
@@ -78,24 +78,24 @@ export const PROPERTIES: Property[] = [
   },
   {
     id: 2,
-    title: "Appartement Lumineux",
+    title: "Maison familiale",
     price: "VENDU",
-    location: "Herstal Centre",
-    beds: 2,
+    location: "Liège (Herstal)",
+    beds: 3,
     baths: 1,
-    area: "90 m²",
-    image: "https://picsum.photos/800/600?random=11",
+    area: "159 m²",
+    image: "https://cdn.prod.website-files.com/68f96b71387d3d720da45ca8/69b0bce139ea298780289fe3_f8bb20c2c8a19e55294547a0509a3c42_750bb9faba_1600-original.jpg",
     badge: "VENDU au prix"
   },
   {
     id: 3,
-    title: "Villa 4 Façades",
+    title: "Maison individuelle",
     price: "VENDU",
     location: "Chaudfontaine",
     beds: 4,
-    baths: 2,
-    area: "210 m²",
-    image: "https://picsum.photos/800/600?random=12",
+    baths: 1,
+    area: "358 m²",
+    image: "https://cdn.prod.website-files.com/68f96b71387d3d720da45ca8/69b0bce1d50450799e577c19_f392a3f5b6cf66e687da127616a277ec_27a7346b98_1920-original.jpg",
     badge: "VENDU"
   }
 ];
