@@ -48,18 +48,18 @@ export const STATS: Stat[] = [
 
 export const FEATURES = [
   {
-    title: "Estimation Précise",
-    description: "Pas de fausse promesse. Nous analysons les données réelles du marché pour fixer le prix qui garantit une vente rapide et efficace.",
+    title: "Estimation immobilière précise",
+    description: "Nous analysons les données réelles du marché, les ventes récentes et les caractéristiques de votre bien pour déterminer un prix juste. Une estimation fiable permet d’attirer les bons acheteurs et de vendre plus rapidement.",
     icon: <TrendingUp /> 
   },
   {
-    title: "Marketing Puissant",
-    description: "Photos HD, visites virtuelles et publicité ciblée. Nous offrons à votre bien la visibilité qu'il mérite pour attirer les meilleurs acheteurs.",
+    title: "Stratégie marketing performante",
+    description: "Nous mettons en valeur votre bien grâce à des photos professionnelles, des visites virtuelles et une diffusion ciblée sur les meilleurs portails immobiliers afin d’atteindre un maximum d’acheteurs qualifiés.",
     icon: <Users /> 
   },
   {
-    title: "Accompagnement Total",
-    description: "De l'administratif à la signature chez le notaire, nous gérons tout. Vendez l'esprit tranquille, nous nous occupons du reste.",
+    title: "Accompagnement complet jusqu’à la vente",
+    description: "De la mise en vente jusqu’à la signature chez le notaire, notre équipe vous accompagne à chaque étape pour simplifier toutes les démarches et sécuriser votre transaction.",
     icon: <MapPin /> 
   }
 ];
