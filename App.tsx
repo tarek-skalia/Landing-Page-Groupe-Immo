@@ -76,7 +76,7 @@ const App: React.FC = () => {
           
           {/* Logo */}
           <div className="flex items-center z-50">
-            <a href="/" className="flex items-center gap-3 group" onClick={closeMenu}>
+            <a href="#accueil" className="flex items-center gap-3 group" onClick={closeMenu}>
                <img 
                  src="https://cdn.prod.website-files.com/68f96b71387d3d720da45ca8/698cae9310045db18a39e07b_Group-Immo_logo_final2021_pour-fond-bleu.169x80.png" 
                  alt="Group Immo" 
